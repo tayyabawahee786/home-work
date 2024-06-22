@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save Tweet</title>
+</head>
+<style>
+#tweetform{
+    background-color: hsl(180, 49%, 29%);
+}
+#saveButton{
+    background-color: rgb(123, 162, 230);
+    color: blueviolet;
+    font-size: x-large;
+    font-weight: bolder;
+    font-style: inherit;
+}
+#tweetImage{
+    background-color: rgb(4, 143, 207);
+    color: rgb(161, 191, 142);
+    font-size: x-large;
+    font-weight: bolder;
+    font-style: inherit;
+}
+#tweet_lable{
+    
+    color: rgb(161, 191, 142);
+    font-size: x-large;
+    font-weight: bolder;
+    font-style: inherit;
+}
+#desc_lable{
+    color: rgb(161, 191, 142);
+    font-size: x-large;
+    font-weight: bolder;
+    font-style: inherit;
+}
+#tweetDescription{
+    background-color: rgb(140, 149, 154);
+    color: rgb(85, 37, 71);
+    font-size: x-large;
+    font-weight: bolder;
+    font-style: inherit;
+}
+
+
+</style>
+<body>
+    <form id="tweetForm">
+        <label for="tweetImage" id="tweet_lable">Tweet Image :</label>
+        <input type="text" id="tweetImage" name="tweetImage" required><br><br>
+
+        <label for="tweetDescription" id="desc_lable">Tweet Description:</label>
+        <textarea id="tweetDescription" name="tweetDescription" required></textarea><br><br>
+
+        <button type="button" id="saveButton">Save</button>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>
